@@ -23,6 +23,14 @@ function runLoops() {
         addImageToDiv("#while-loop");
     */
 
+    let start = 0;
+    let end = num + 1;
+
+    while (start < end)
+    {
+        start++;
+        addImageToDiv("#while-loop");
+    }
 
 
 
@@ -35,6 +43,14 @@ function runLoops() {
         addImageToDiv("#do-while-loop");
     */
 
+    let start2 = 0;
+    let end2 = num -1;
+
+    do
+    {
+        start2++;
+        addImageToDiv("#do-while-loop");
+    } while(start2 < end2)
 
 
 
@@ -46,6 +62,10 @@ function runLoops() {
 
         addImageToDiv("#for-loop");
     */
+
+    for (let ball3 = 0; ball3 < num; ball3++) {
+        addImageToDiv("#for-loop");
+    }
 
 
 
